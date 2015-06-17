@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <ul class="repos">
+    <li>LOADING...</li>
+  </ul>
+  <nav>
+    <a class="sort-alpha" href="#">Sort Aphabetically</a>
+    <a class="sort-stars" href="#">Sort By Stargazers</a>
+  </nav>
+  <script type="template" id="repo">
+    <li class="<%= stargazers_class %>">
+      <%= name %> has <%= stargazers_count %> stargazers
+    </li>
+  </script>
+  <script src="js/jquery.js"></script>
+  <script src="js/underscore.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+.has_stargazers {
+  color: blue;
+}
+
+.no_stargazers {
+  color: orange;
+}
